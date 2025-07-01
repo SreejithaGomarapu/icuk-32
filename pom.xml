@@ -165,6 +165,10 @@
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-maven-plugin</artifactId>
                 <version>2.7.0</version>
+                     <configuration>
+        <testFilesDirectory>src/test/jmeter</testFilesDirectory>
+        <jmeterVersion>5.4.3</jmeterVersion> <!-- Recommended: update from 4.0 -->
+    </configuration>
                 <executions>
                     <execution>
                         <id>jmeter-tests</id>
